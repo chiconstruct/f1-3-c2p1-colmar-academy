@@ -1,0 +1,12 @@
+@mixin set-flex-container($justify: center, $align: center, $direction: row, $wrap: wrap) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+  flex-wrap: $wrap;
+}
+
+@mixin set-flex-items($grow: 1, $shrink: 1) {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
